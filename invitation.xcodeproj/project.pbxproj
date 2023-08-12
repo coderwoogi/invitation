@@ -13,6 +13,8 @@
 		4430E3D32A81EA88005E1B7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4430E3D22A81EA88005E1B7C /* Preview Assets.xcassets */; };
 		4430E3D52A81EA88005E1B7C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4430E3D42A81EA88005E1B7C /* Persistence.swift */; };
 		4430E3D82A81EA88005E1B7C /* invitation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4430E3D62A81EA88005E1B7C /* invitation.xcdatamodeld */; };
+		4430E3DF2A83A94C005E1B7C /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4430E3DE2A83A94B005E1B7C /* CustomTabBar.swift */; };
+		4430E3E12A842637005E1B7C /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4430E3E02A842637005E1B7C /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		4430E3D22A81EA88005E1B7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4430E3D42A81EA88005E1B7C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		4430E3D72A81EA88005E1B7C /* invitation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = invitation.xcdatamodel; sourceTree = "<group>"; };
+		4430E3DE2A83A94B005E1B7C /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		4430E3E02A842637005E1B7C /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				4430E3CB2A81EA87005E1B7C /* invitationApp.swift */,
 				4430E3CD2A81EA87005E1B7C /* ContentView.swift */,
+				4430E3DE2A83A94B005E1B7C /* CustomTabBar.swift */,
+				4430E3E02A842637005E1B7C /* Landmark.swift */,
 				4430E3CF2A81EA88005E1B7C /* Assets.xcassets */,
 				4430E3D42A81EA88005E1B7C /* Persistence.swift */,
 				4430E3D62A81EA88005E1B7C /* invitation.xcdatamodeld */,
@@ -144,9 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4430E3D82A81EA88005E1B7C /* invitation.xcdatamodeld in Sources */,
+				4430E3DF2A83A94C005E1B7C /* CustomTabBar.swift in Sources */,
 				4430E3D52A81EA88005E1B7C /* Persistence.swift in Sources */,
 				4430E3CE2A81EA87005E1B7C /* ContentView.swift in Sources */,
 				4430E3CC2A81EA87005E1B7C /* invitationApp.swift in Sources */,
+				4430E3E12A842637005E1B7C /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"invitation/Preview Content\"";
-				DEVELOPMENT_TEAM = U424NQ9R7X;
+				DEVELOPMENT_TEAM = KGT64L3MWW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"invitation/Preview Content\"";
-				DEVELOPMENT_TEAM = U424NQ9R7X;
+				DEVELOPMENT_TEAM = KGT64L3MWW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
